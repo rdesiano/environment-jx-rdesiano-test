@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: arch-rdesiano-test
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: arch-rdesiano-test
+  pipelines: {}
